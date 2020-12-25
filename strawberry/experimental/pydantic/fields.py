@@ -21,6 +21,7 @@ FIELDS_MAP = {
     pydantic.conset: None,
     pydantic.ConstrainedStr: str,
     pydantic.constr: str,
+    pydantic.EmailStr: str,
     pydantic.PyObject: None,
     pydantic.ConstrainedInt: int,
     pydantic.conint: int,

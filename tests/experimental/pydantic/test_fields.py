@@ -19,6 +19,7 @@ from strawberry.types.types import TypeDefinition
         (pydantic.StrictBool, bool),
         (pydantic.ConstrainedBytes, bytes),
         (pydantic.SecretBytes, bytes),
+        (pydantic.EmailStr, str),
     ],
 )
 def test_types(pydantic_type, field_type):
